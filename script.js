@@ -86,4 +86,4 @@ function init(){
 	})
 }
 
-init{};
+init();
