@@ -34,5 +34,14 @@ function handleSymbol(symbol){
 			}else{
 				buffer = buffer.toString(0, buffer.length -1);
 			}
+			break;
+		case '+':
+		case '-':
+		case 'x':
+		case '÷':
+			handleMath(symbol);
+			break;
 	}
 }
+
+function handleMath(symbol)
